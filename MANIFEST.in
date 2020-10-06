@@ -1,0 +1,4 @@
+include README.md
+recursive-include octoprint_eatonups/templates *
+recursive-include octoprint_eatonups/translations *
+recursive-include octoprint_eatonups/static *

@@ -1,0 +1,28 @@
+<h4>Eaton UPS Settings</h4>
+Enter the necessary info for upsc command.
+<form class="form-horizontal" id="settings_plugin_eatonups">
+    <div class="control-group">
+        <label class="control-label">{{ _('UPS Name') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.eatonups.ups_name">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('UPS user') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.eatonups.ups_user">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('UPS password') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.eatonups.ups_pass">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('UPS Outlet') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.eatonups.ups_outlet">
+        </div>
+    </div>
+</form>
